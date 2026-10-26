@@ -30,33 +30,6 @@ function Register() {
             setLoading(false);
         }
     }
-    // return (
-
-    //     <form onSubmit={handleRegister}>
-    //         <label>Name</label>
-    //         <input
-    //             type="text"
-    //             onChange={(e) => setName(e.target.value)}
-    //             value={name}
-    //         />
-    //         <label>Email</label>
-    //         <input
-    //             type= 'email'
-    //             value={email}
-    //             onChange={(e)=>setEmail(e.target.value)}
-    //         />
-    //         <label>password</label>
-    //         <input
-    //             type="password"
-    //             onChange={(e)=>setPassword(e.target.value)}
-    //             value={password}
-    //         />
-    //         <button type="submit">{loading?"Registering":"Register"}</button>
-    //         {message && <p>{message}</p>}
-    //         {error && <p>{error}</p>}
-    //     </form>
-    // )
-
     return (
         <div className="min-h-screen bg-[#F8F7F0] px-4 py-10 flex flex-col items-center justify-center">
             {/* Logo */}

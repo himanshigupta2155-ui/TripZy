@@ -1,23 +1,3 @@
-// import React from 'react'
-// import{useNavigate} from 'react-router-dom'
-// function NavBar() {
-//   const navigate=useNavigate();
-//   return (
-//     <div>
-//       <button onClick={()=>navigate("/")}>Home</button>
-//       <button onClick={()=>navigate("/available-rides")}>Available Rides</button>
-//       <button onClick={()=>navigate("/login")}>Login</button>
-//       <button onClick={()=>navigate("/register")}>Register</button>
-//       <button onClick={()=>navigate("/create-ride")}>Create Ride</button>
-//       <button onClick={()=>navigate("/my-bookings")}>My Bookings</button>
-
-//     </div>
-//   )
-// }
-
-// export default NavBar
-
-
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import axiosInstance from './axiosCalls/axios'

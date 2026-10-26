@@ -54,59 +54,6 @@ function CreateRide() {
       setError(error.response?.data?.message || "Something went wrong");
     }
   }
-  // return (
-  //   <div>
-  //     <h2>Offer a Ride</h2>
-  //     <form onSubmit={handleSubmit}>
-  //       <input
-  //         type="text"
-  //         value={formData.source}
-  //         onChange={handleChange}
-  //         name="source"
-  //         placeholder="Source"
-  //       />
-  //       <input
-  //         type="text"
-  //         value={formData.destination}
-  //         onChange={handleChange}
-  //         name="destination"
-  //         placeholder="Destination"
-  //       />
-  //       <input
-  //         type="time"
-  //         value={formData.departureTime}
-  //         onChange={handleChange}
-  //         name="departureTime"
-  //         placeholder="Departure time"
-  //       />
-  //       <input
-  //         type="number"
-  //         value={formData.availableSeats}
-  //         onChange={handleChange}
-  //         name="availableSeats"
-  //         placeholder="Available seats"
-  //         min="1"
-  //       />
-  //       <input
-  //         type="date"
-  //         value={formData.date}
-  //         onChange={handleChange}
-  //         name="date"
-  //         placeholder="Date"
-  //       />
-  //       <input
-  //         type="number"
-  //         value={formData.pricePerSeat}
-  //         onChange={handleChange}
-  //         name="pricePerSeat"
-  //         min="0"
-  //         placeholder="Price per seat"
-  //       />
-  //       {error && <p>{error}</p>}
-  //       <button type="submit">Create Ride</button>
-  //     </form>
-  //   </div>
-  // )
 
   return (
     <div className="min-h-screen bg-[#F8F5EC] px-4 py-12 sm:px-6">

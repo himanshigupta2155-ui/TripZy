@@ -3,13 +3,7 @@ import { useNavigate } from 'react-router-dom'
 function Home() {
   const navigate = useNavigate()
   return (
-    // <div>
-    //   <h1>Welcome to TripZy🚗</h1>
-    //   <button onClick={()=>navigate('/available-rides')}>Find a ride</button>
-    //   <button onClick={()=>navigate('/create-ride')}>Offer a ride</button>
-    // </div>
-
-
+  
     <div className="min-h-screen bg-[#FAF7EF] text-emerald-950">
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 md:grid-cols-2 md:py-28">
 

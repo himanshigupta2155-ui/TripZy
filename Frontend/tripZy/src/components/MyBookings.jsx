@@ -34,30 +34,6 @@ function MyBookings() {
       setError(error.response?.data?.message || "Something went wrong")
     }
   }
-  // return (
-  //   <div>
-  //     {loading && <p>Loading your bookings</p>}
-  //     {error && <p>{error}</p>}
-  //     {!loading && !error && bookings.length === 0 && <p>You haven't booked any rides yet.</p>}
-  //     {bookings.length > 0 && bookings.map((booking) => (
-
-  //       <div key={booking._id}>
-  //         <h2>
-  //           {booking.ride?.source}→{booking.ride?.destination}
-  //         </h2>
-  //         <p>Seats Booked : {booking.seatsBooked}</p>
-  //         <p>Status: {booking.bookingStatus}</p>
-  //         {booking.bookingStatus === 'confirmed' &&
-  //           <button onClick={()=>handleCancellation(booking._id)}>Cancel Booking</button>
-  //       }
-  //         <p>Date: {booking.ride?.date}</p>
-  //         <p>Departure: {booking.ride?.departureTime}</p>
-  //         <p>Price per seat: ₹{booking.ride?.pricePerSeat}</p>
-  //       </div>
-
-  //     ))}
-  //   </div>
-  // )
 
   return (
     <div className="min-h-screen bg-[#FAF7EF] px-6 py-12 text-emerald-950">

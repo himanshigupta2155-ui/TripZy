@@ -258,3 +258,9 @@ Deployment, automated testing, and additional edge-case verification should be d
 Developed as a full-stack software project.
 
 **Project:** TripZy — Ride-Sharing Application
+
+## Demo Video
+
+Watch the TripZy project demonstration here:
+
+[TripZy Demo Video](https://drive.google.com/file/d/1i5DuJp4POYGzjxsNg8TrmnT9rjgJ8Tur/view?usp=sharing)

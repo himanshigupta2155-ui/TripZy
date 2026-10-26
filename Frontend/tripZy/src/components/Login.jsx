@@ -22,33 +22,14 @@ function Login() {
       setMessage(res.data.message);
       setEmail("");
       setPassword("");
+      navigate("/");
     } catch (error) {
       setError(error.response?.data?.message || "Something went wrong");
     } finally {
       setLoading(false);
     }
   }
-  // return (
-  //   <form onSubmit={handleLogin}>
-  //     <label>Email</label>
-  //     <input 
-  //       type="email"
-  //       value={email}
-  //       onChange={(e)=>setEmail(e.target.value)}
-  //     />
-  //     <label>Password</label>
-  //     <input 
-  //       type="password"
-  //       value={password}
-  //       onChange={(e)=>setPassword(e.target.value)}
-  //     />
-  //     <button type="submit">{loading?"Logging In" : "Login"}</button>
-  //     {message && <p>{message}</p>}
-  //     {error && <p>{error}</p>}
-
-  //   </form>
-  // )
-
+ 
   return (
     <div className="min-h-screen bg-[#F8F7F0] px-4 py-10 flex flex-col items-center justify-center">
 
