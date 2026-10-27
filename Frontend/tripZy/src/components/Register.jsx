@@ -24,6 +24,7 @@ function Register() {
             setName("");
             setEmail("");
             setPassword("");
+            navigate('/')
         } catch (error) {
             setError(error.response?.data?.message || "Something went wrong");
         } finally {
