@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://tripzy-backend-yi1v.onrender.com/:path*"
+    }
+  ]
+}
