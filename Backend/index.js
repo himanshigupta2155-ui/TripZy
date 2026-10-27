@@ -14,7 +14,8 @@ const app = express()
 app.use(cors({
     origin: [
         'http://localhost:5173',
-        process.env.CLIENT_URL
+        // process.env.CLIENT_URL
+        'https://tripzy-kappa.vercel.app'
     ].filter(Boolean),
     credentials: true
 }))
